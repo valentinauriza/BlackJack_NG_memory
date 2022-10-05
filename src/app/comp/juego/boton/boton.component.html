@@ -1,0 +1,13 @@
+<div class="container-fluid resultado">
+  <h2 class="display">{{resultado}}</h2>
+</div>
+
+<div class="container-fluid botones">
+  <div>
+    <!-- [disabled]="resultado !== ''" -->
+    <button type="button" [disabled]="resultado !== ''" (click)="pedir()" class="btn btn-outline-secondary">Pedir</button>
+    <button type="button" (click)="quedar()" class="btn btn-outline-secondary">Quedarse</button>
+    <button type="button"  (click)="empezarNvmt()" class="btn btn-outline-secondary">Empezar
+      nuevamente</button>
+  </div>
+</div>

@@ -1,0 +1,34 @@
+/*::ng-deep .vertical-center-modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}*/
+
+/*.container-fluid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}*/
+
+.crupier{
+  padding-top: 30%;
+}
+
+.botones{
+  position: fixed;
+  top: 89%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.resultado{
+  position: fixed;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: aliceblue;
+}
+
+button{
+    margin-left: 1rem;
+}

@@ -1,0 +1,5 @@
+<div class="container" style="text-align: center;">
+  <app-mesa [puntosCrupier]="puntosCrupier" [puntosJugador]="puntosJugador"></app-mesa>
+  <app-boton (OnPedir)="puntosJug('jugador')" (onQuedar)="puntos()" [resultado]="resultado" (onBorrar)="limpiar()">
+  </app-boton>
+</div>
